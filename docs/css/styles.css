@@ -1,20 +1,67 @@
-/* This stylesheet is where to add styles for your Shakespeare Play */
-/*We usually add something general for the body*/
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /*your style rules go in here */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(0, 0, 0);
 }
-
+h1, h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    margin-top: 30px ;
+}
+img {
+    width: 80%;
+    display: block;
+    margin: 10px auto 10px auto;
+}
+main {
+    width: 90%;
+    max-width: 1000px;
+    border: 3px double rgb(0, 0, 0);
+    background-color: white;
+    margin:0 auto;
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+}
+figure {
+    width: 100%;
+    margin: 20px auto 10px auto;
+    color: white;
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
 section {
-  border: 0;
+    margin-top: 10px;
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+p {
+    text-align: justify;
+   
+}
+.first {
+    
+}
+ul {
+    list-style-type: square;
 }
 
+@media only screen and (max-width:600px) {
+    main {
+        width: 100%;
+        padding: 2%;
+    }
+    section {
+        margin-top: 5px;
+        font-size: 1em
+    }
+}
 /*Here follows the class names that you will have in your html*/
 /*You may have more if you added styles in InDesign*/
 /*You need to add the style attributes between the curly brackets*/
