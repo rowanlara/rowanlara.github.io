@@ -141,6 +141,8 @@ p {
 ul {
     list-style-type: square;
     margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: auto;
 }
 footer { 
     margin-left: 10px;
