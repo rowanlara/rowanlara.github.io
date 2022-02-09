@@ -8,12 +8,13 @@
 
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /*your style rules go in here */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  background-color: black;
 }
 
 section.nav {
-  /* this is where your nav list items will be */
+  
 }
 
 section {
@@ -29,28 +30,55 @@ section {
 /* If you ahe created any new styles in InDesign and used export tags then you need to add them here */
 
 section.dramatis {
+  border: 2px solid white;
 }
 section.play {
+  border: 2px solid grey;
 }
 div.sceneImage {
 }
 h1.act {
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: white;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
 p.character {
 }
 p.charactername {
 }
 h1.dramatishead {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px ;
+  margin-top: 15px;
 }
 h2.firstscene {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px ;
+  margin-top: 15px;
 }
 h2.location {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px ;
+  margin-top: 15px;
 }
 p.play_location {
 }
 p.prose {
 }
 h2.scene {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: white;
+  margin-top: 4%;
 }
 p.song {
 }
