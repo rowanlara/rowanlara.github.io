@@ -49,8 +49,10 @@ h1.act {
   margin-bottom: 4%;
 }
 p.character {
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 p.charactername {
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 h1.dramatishead {
   font-family:Georgia, 'Times New Roman', Times, serif;
@@ -87,6 +89,7 @@ p.song {
 }
 h2.stagedirection {
 }
+
 .verseline {
   margin: 0 0 0.4em 8em;
 }
