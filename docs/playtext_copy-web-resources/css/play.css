@@ -39,7 +39,9 @@ section.image {
   padding: 2em;
   width: 70%;
   max-width: 750px;
-  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 img {
   width: 80%;
