@@ -26,10 +26,10 @@ section {
 
 /* If you ahe created any new styles in InDesign and used export tags then you need to add them here */
 a:link {
-  color: burlywood;
+  color: blanchedalmond;
 }
 a:visited {
-  color: blanchedalmond;
+  color: grey;
 }
 a:hover{
   color: darkgoldenrod;
@@ -62,17 +62,15 @@ section.play {
   max-width: 750px;
 }
 section.image {
-  padding: 2em;
   width: 70%;
   max-width: 750px;
   display: flex;
   min-width: 350px;
-  
 }
 img {
   width: 80%;
   display: block;
-  margin: 10px auto 10px auto;
+  margin: 10% auto 10% auto;
 }
 h1.act {
   text-align: center;
@@ -143,6 +141,7 @@ span.character_beforespeech {
   html {
     font-size: 12px;
     width:100%;
+    min-width: 50px;
   }
 }
 
