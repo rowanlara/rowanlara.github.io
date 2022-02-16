@@ -25,23 +25,48 @@ section {
 /* the following may not be used but it doesn't matter if they are listed here  */
 
 /* If you ahe created any new styles in InDesign and used export tags then you need to add them here */
+a:link {
+  color: burlywood;
+}
+a:visited {
+  color: blanchedalmond;
+}
+a:hover{
+  color: darkgoldenrod;
+}
 
+section.contents{
+  margin: 10px auto 10px auto;
+  width: 70%;
+  max-width: 750px;
+  padding: 20% auto 20% auto;
+}
 section.dramatis {
   border: 2px solid white;
-  padding: 2px;
+  margin: 10px auto 10px auto;
+  padding: 2em;
+  width: 70%;
+  max-width: 750px;
+}
+section.scene {
+  margin: 10px auto 10px auto;
+  width: 70%;
+  max-width: 750px;
+  text-align: center;
 }
 section.play {
-  border: 2px solid grey;
+  
   margin: 10px auto 10px auto;
+  width: 70%;
+  max-width: 750px;
 }
 section.image {
-  border: 2px solid white;
   padding: 2em;
   width: 70%;
   max-width: 750px;
   display: flex;
-  text-align: center;
-  align-items: center;
+  min-width: 350px;
+  
 }
 img {
   width: 80%;
@@ -102,6 +127,7 @@ h2.stagedirection {
   margin: 0 0 0.4em 8em;
 }
 span.character_role {
+  
 }
 span.stage_directions_inline {
 }
@@ -113,7 +139,6 @@ span.character_beforespeech {
   html {
     font-size: 12px;
     width:100%;
-    padding: 1em 3em;
   }
 }
 
