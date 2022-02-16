@@ -31,6 +31,7 @@ section {
 
 section.dramatis {
   border: 2px solid white;
+  padding: 2px;
 }
 section.play {
   border: 2px solid grey;
