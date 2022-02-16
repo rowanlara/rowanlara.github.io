@@ -34,6 +34,8 @@ section.dramatis {
 }
 section.play {
   border: 2px solid grey;
+  display: block;
+  margin: 10px auto 10px auto;
 }
 div.sceneImage {
 }
