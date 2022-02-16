@@ -40,6 +40,7 @@ section.contents{
   width: 70%;
   max-width: 750px;
   padding: 20% auto 20% auto;
+  color: burlywood;;
 }
 section.dramatis {
   border: 2px solid white;
@@ -48,7 +49,7 @@ section.dramatis {
   width: 70%;
   max-width: 750px;
 }
-section.scene {
+section.setting {
   margin: 10px auto 10px auto;
   width: 70%;
   max-width: 750px;
@@ -77,7 +78,7 @@ h1.act {
   text-align: center;
   font-family:Georgia, 'Times New Roman', Times, serif;
   text-align: center;
-  color: white;
+  color: burlywood;
   margin-top: 4%;
   margin-bottom: 4%;
 }
@@ -90,23 +91,26 @@ p.charactername {
 h1.dramatishead {
   font-family:Georgia, 'Times New Roman', Times, serif;
   text-align: center;
-  color: white;
+  color: burlywood;
   margin-bottom: 30px ;
   margin-top: 15px;
 }
 h2.firstscene {
   font-family:Georgia, 'Times New Roman', Times, serif;
   text-align: center;
-  color: white;
+  color: burlywood;
   margin-bottom: 30px ;
   margin-top: 15px;
 }
 h2.location {
   font-family:Georgia, 'Times New Roman', Times, serif;
   text-align: center;
-  color: white;
+  color: blanchedalmond;
   margin-bottom: 30px ;
   margin-top: 15px;
+}
+h2.setting {
+  color: burlywood;
 }
 p.play_location {
 }
@@ -115,7 +119,7 @@ p.prose {
 h2.scene {
   font-family:Georgia, 'Times New Roman', Times, serif;
   text-align: center;
-  color: white;
+  color: burlywood;
   margin-top: 4%;
 }
 p.song {
