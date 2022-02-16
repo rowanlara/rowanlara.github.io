@@ -191,7 +191,8 @@ span.character_beforespeech {
     display: block;
     float: right;
     cursor: pointer;
-    input[type="checkbox"]:checked ~ ul {
+  }
+    input [type="checkbox"]:checked ~ ul {
       display: block;
     }
   
@@ -201,4 +202,5 @@ span.character_beforespeech {
     ul li {
       flex: 0 0 auto; /*the same as flex-grow, flex-shrink, flex-basis */
       width: 100%;
+    }
 }
