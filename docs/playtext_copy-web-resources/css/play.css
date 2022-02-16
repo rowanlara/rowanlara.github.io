@@ -12,9 +12,7 @@ body {
   background-color: black;
 }
 
-section.nav {
-  
-}
+
 
 section {
   
@@ -38,10 +36,11 @@ section.play {
 }
 section.image {
   border: 2px solid white;
-  padding: 2px;
+  padding: 2em;
+  width: 70%;
+  max-width: 750px;
 }
-div.sceneImage {
-}
+
 h1.act {
   text-align: center;
   font-family:Georgia, 'Times New Roman', Times, serif;
@@ -103,4 +102,9 @@ span.stage_directions_inline {
 span.character_beforespeech {
 }
 
-
+@media screen and (max-width: 700px) {
+  dramatis, .play {
+    width:100%;
+    padding: 1em 3em;
+  }
+}
