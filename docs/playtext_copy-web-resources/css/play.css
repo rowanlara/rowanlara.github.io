@@ -66,11 +66,12 @@ section.image {
   max-width: 750px;
   display: flex;
   min-width: 350px;
+  margin: 5% auto 5% auto;
 }
 img {
   width: 80%;
   display: block;
-  margin: 10% auto 10% auto;
+  margin: 0% auto 0% auto;
 }
 h1.act {
   text-align: center;
