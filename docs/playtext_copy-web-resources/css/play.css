@@ -36,11 +36,11 @@ a:hover{
 }
 
 section.contents{
-  margin: 10px auto 10px auto;
+  margin: 20px auto 20px auto;
   width: 70%;
   max-width: 750px;
   padding: 20% auto 20% auto;
-  color: burlywood;;
+  color: burlywood;
 }
 section.dramatis {
   border: 2px solid white;
@@ -123,6 +123,7 @@ h2.scene {
 p.song {
 }
 h2.stagedirection {
+  font-style: italic;
 }
 
 .verseline {
