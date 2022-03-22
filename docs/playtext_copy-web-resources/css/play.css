@@ -1,0 +1,257 @@
+/* This stylesheet is where to add styles for your Shakespeare Play */
+/*We usually add something general for the body*/
+* {
+  
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  background-color: black;
+  margin: 80px 2em 0 2em;
+}
+
+html {
+  scroll-padding-top: 85px;
+  scroll-behavior: smooth;
+}
+
+
+
+section {
+  
+}
+
+/*Here follows the class names that you will have in your html*/
+/*You may have more if you added styles in InDesign*/
+/*You need to add the style attributes between the curly brackets*/
+
+/* the following may not be used but it doesn't matter if they are listed here  */
+
+/* If you ahe created any new styles in InDesign and used export tags then you need to add them here */
+
+
+section.contents{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 235, 205);
+  color: black;
+}
+section.dramatis {
+  margin: 0px auto 10px auto;
+  padding: 0 2em 2em 2em;
+  width: 70%;
+  max-width: 750px;
+}
+section.setting {
+  margin: 10px auto 10px auto;
+  width: 70%;
+  max-width: 750px;
+  text-align: center;
+}
+section.play {
+  margin: 10px auto 100px auto;
+  width: 70%;
+  max-width: 750px;
+}
+
+section.image {
+  width: 70%;
+  max-width: 750px;
+  margin: 5% auto 5% auto;
+}
+img {
+  width: 100%;
+  display: block;
+}
+h1.act {
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: burlywood;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+p.character {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  display: block;
+  margin-left:-5em;
+  color: blanchedalmond;
+}
+p.charactername {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: blanchedalmond;
+}
+h1.dramatishead {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: burlywood;
+  margin-bottom: 30px ;
+  margin-top: 15px; 
+  border-style: double;
+  border-color: blanchedalmond;
+  padding: 0.5em;
+}
+h2.firstscene {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: burlywood;
+  margin-bottom: 30px ;
+  margin-top: 15px;
+}
+h2.location {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: blanchedalmond;
+  margin-bottom: 30px ;
+  margin-top: 15px;
+}
+h2.setting {
+  color: burlywood;
+}
+p.play_location {
+}
+p.prose {
+  margin: 0 2em 0 2em;
+}
+
+h2.scene {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: burlywood;
+  margin-top: 4%;
+}
+
+p.stagedirection {
+  font-style: italic;
+  color: blanchedalmond;
+  text-align: right;
+  padding: 0.5em;
+  margin-right: -5em;
+}
+audio{
+  width: 100%;
+  margin: 1em 0;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+nav ul li {
+  flex: 0 0 8rem;
+  text-align: center;
+}
+nav ul li a {
+  display: block;
+  padding: 0 1rem 0 1rem;
+  text-decoration: none;
+}
+nav ul li:hover {
+}
+nav ul li a:hover {
+  color: goldenrod;
+}
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+li ul {
+  display: none;
+  position: absolute;
+  background-color: rgba(255, 235, 205);
+  padding: 1em;
+}
+li.home {
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 1.5em;
+  font-variant:small-caps;
+}
+
+nav ul li:hover ul {
+  display: flex;
+  flex-direction: column; 
+}
+
+nav ul li ul li {
+  flex: 0 1 auto;
+  width: 8rem; /* the same as the value for flex-basis on the parent li */
+}
+input[type="checkbox"] {
+  display: none;
+}
+
+.backtotop {
+  position: fixed;
+  bottom: 2px;
+  right: 20px;
+  opacity: 0.9;
+}
+.backtotop a {
+  text-decoration: none;
+  font-size: 3em;
+  color: goldenrod;
+}
+.backtotop a:hover {
+  color: white
+}
+
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  color: white;
+}
+.verseline {
+  margin: 0 0 0.4em 8em;
+}
+
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 0.9em;
+    width:100%;
+    min-width: 50px;
+    scroll-padding-top: 50px;
+  }
+  section.dramatis {
+    width: 90%;
+    padding: 0.5em;
+  }
+  section.contents{
+    background-color: blanchedalmond;
+  }
+  #toggle:checked ~ #menu {
+    display: block !important;
+  }
+  nav ul {
+    display: none;
+    flex-direction: column;
+  }
+  .hamburger {
+    display: block;
+    float: right;
+    cursor: pointer;
+  }
+    input[type="checkbox"]:checked ~ ul {
+      display: block;
+    }
+  
+    li ul {
+      position: static;
+    }
+    nav ul li {
+      flex: 0 0 auto; /*the same as flex-grow, flex-shrink, flex-basis */
+      width: 100%;
+      background-color: blanchedalmond;
+    }
+}
